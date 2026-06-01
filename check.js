@@ -28,7 +28,7 @@ async function main() {
     lowerBody.includes("reserva") ||
     lowerBody.includes("comprar");
 
-  if (found) {
+  if (!found) {
     console.log("No aparece reservar ni comprar.");
     return;
   }
