@@ -25,9 +25,10 @@ async function main() {
 
   const found =
     lowerBody.includes("reservar") ||
+    lowerBody.includes("reserva") ||
     lowerBody.includes("comprar");
 
-  if (!found) {
+  if (found) {
     console.log("No aparece reservar ni comprar.");
     return;
   }
