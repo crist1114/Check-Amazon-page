@@ -1,0 +1,8 @@
+{
+  "name": "amazon-checker",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}
